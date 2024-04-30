@@ -16,11 +16,16 @@
       "@/*": ["./src/*"]
     }
   },
+
   "include": [
     "next-env.d.ts",
+    "**/*.js",
     "**/*.ts",
     "**/*.tsx",
-    "create-lerna-package.js"
+    "create-lerna-package.js",
+    "src/templates/components/component.js",
+    "src/templates/components/componentmdx.js",
+    "src/templates/components/component.stories.js"
   ],
   "exclude": ["node_modules"]
 }
